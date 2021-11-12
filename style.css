@@ -1,5 +1,26 @@
-div {
+.parent {
     background-color: blue;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Aligns the items in the center horizontally  */
+
+    height: 300px;
+    align-items: center; /* Aligns the items vertically in the center */
 }
+
+.parent #A {
+    background-color: red;
+    height: 30px;
+}
+
+
+.parent #B {
+    background-color: yellow;
+    height: 30px;
+}
+
+
+.parent #C {
+    background-color: gold;
+    height: 30px;
+}
+
